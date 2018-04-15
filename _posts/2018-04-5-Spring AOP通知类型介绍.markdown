@@ -4,7 +4,7 @@ title:  "Spring AOP通知类型介绍"
 date:   2018-04-15 11:46:21 +0800
 categories: 翻绎
 ---
-原文地址：http://www.baeldung.com/spring-aop-advice-tutorial
+原文地址：[http://www.baeldung.com/spring-aop-advice-tutorial](http://www.baeldung.com/spring-aop-advice-tutorial)
 
 # 概述 #
 这遍文章将要讨论Spring AOP中使用到的各种通知类型，
@@ -20,6 +20,7 @@ categories: 翻绎
     public class TestConfig {
     ...
     }
+
 
 # 前置通知 #
 顾明思义，前置通知在连接点被执行前就被执行了，除非抛出异常，否则前置通知不能够阻止方法的继续执行。
@@ -40,6 +41,8 @@ categories: 翻绎
 	    logger.info("Before " + methodName);
 	    }
     }
+
+
 在切点表达式repositoryMethods匹配的repository method连接点执行之前，前置通知logMethodCall方法将会首先被执行。
 
 # 后置通知 #
@@ -72,6 +75,8 @@ categories: 翻绎
 	    	eventPublisher.publishEvent(new FooCreationEvent(entity));
 	    }
     }
+
+
 请注意：首先，@AfterReturning注解，我们可以访问方法的返回值。其实，通过声明JoinPoint参数，我们可以使用目标方法调用的参数。
 
 下一步，我们定义一个监控器来简单地记录事件，更多关于事件的文档，请查看：http://www.baeldung.com/spring-events
@@ -115,6 +120,7 @@ categories: 翻绎
 		    return retval;
 	    }
     }
+
 当通过repositoryClassMethods 这个切点匹配的所有连接点被执行时，上面切面所示的通知就会被触发。这个方法接收一个ProceedingJointPoint类型的参数，我们可以在使用这个参数执行目标方法之前，执行我们的切面逻辑。在上面的例子里，我们只时简单地保存了目标方法调用的开始时间。其次，由于目标方法可以返回任意类型的对象，所以这个通知的返回值类型是Object，有一点需要注意的是，如果目标方法返回类型是void,通知的必须返回一个null。当目标方法调用完成后，我们可以计算调用时间并打印，然后把返回值返回给调用者。
 
 总结
