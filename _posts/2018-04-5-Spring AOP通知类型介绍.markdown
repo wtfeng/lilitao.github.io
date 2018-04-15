@@ -43,6 +43,7 @@ categories: 翻绎
     }
 
 
+
 在切点表达式repositoryMethods匹配的repository method连接点执行之前，前置通知logMethodCall方法将会首先被执行。
 
 # 后置通知 #
