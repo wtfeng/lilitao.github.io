@@ -14,12 +14,16 @@ categories: 翻绎
 启用通知
 在Spring里，在使用AspectJ提供的注解声明通知之前，首先在Spring的配置类里声明@EnableAspectJAutoProxy 启用AspectJ组件，之后，Spring AOP将扫描和管理被AspectJ的@Aspect注解过的切面bean。
 
+{% highlight java %}
+
     @Configuration
     @ComponentScan(basePackages = {"org.baeldung.dao", "org.baeldung.aop"})
     @EnableAspectJAutoProxy
     public class TestConfig {
     ...
     }
+
+{% endhighlight %}
 
 # 前置通知 #
 顾明思义，前置通知在连接点被执行前就被执行了，除非抛出异常，否则前置通知不能够阻止方法的继续执行。
