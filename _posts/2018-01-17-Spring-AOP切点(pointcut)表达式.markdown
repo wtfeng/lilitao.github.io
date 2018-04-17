@@ -1,8 +1,8 @@
 ---
-layout:post
-title:Spring AOP切点(pointcut)表达式
+layout: post
+title: Spring AOP切点(pointcut)表达式
 date: 2018-04-17 23:55:21 +0800
-categories:translate
+categories: translate
 ---
 
 原文地址：http://www.baeldung.com/spring-aop-pointcut-tutorial
