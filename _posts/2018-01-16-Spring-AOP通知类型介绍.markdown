@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring AOP通知类型介绍"
 date:   2018-04-15 11:46:21 +0800
-categories: 翻绎
+categories: translate
 ---
 原文地址：http://www.baeldung.com/spring-aop-advice-tutorial
 
