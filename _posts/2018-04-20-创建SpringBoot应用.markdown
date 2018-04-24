@@ -59,7 +59,7 @@ spring-boot-maven-plugin提供了很多方便的功能：
 
 src/main/java/hello/Application.java
 
----java
+{% highlight java %}
 	package hello;
 	
 	import java.util.Arrays;
@@ -93,7 +93,9 @@ src/main/java/hello/Application.java
 	    }
 	
 	}
----
+
+{% endhighlight %}
+
 @SpringBootApplication这个注解给这个类注入了以下功能：
 * @Configuration 相当于加注了这个注解，标记当前类是一个类定义bean,相当于xml里的<beans>标签。
 * @EnableAutoConfiguration相当于加注了这个注解，告诉spring boot扫描classpath判断需要加哪个bean和各种属性配置
