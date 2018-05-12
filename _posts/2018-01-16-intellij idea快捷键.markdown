@@ -4,6 +4,7 @@ title: intellij idea快捷键
 date: 2018-04-08
 categories: intellij
 ---
+
 除了日常我们用到的默认快捷键，还有一些好用的，但是没有提供默认快捷键的，请到这里配置：`file->setting->keymap`
 
 `ctrl+b` :进入到方法声明处、类的声明处、变量的声明处（can aslo click the mouse on the usage with `Ctrl` key pressed to jump to declaration）
@@ -39,4 +40,6 @@ categories: intellij
 `ctrl+p`查看参数信息
 在弹出的代码补全框里可以使用`ctrl+q`查看文档，`ctrl+q`查看参数信息,`ctrl+b`查看方法声明
 当弹出代码补全框时，使用点号，逗号，分号，空格选中当前高亮代码
+`ctrl+f7`查看光标所在方法、变量、类名，所有调用到的地方
+`ctrl+q`查看文档
  
