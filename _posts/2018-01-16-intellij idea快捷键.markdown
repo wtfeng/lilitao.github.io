@@ -27,7 +27,7 @@ categories: intellij
 
 `alt+f1`跳到正在编辑的类或方法或字段
 
-`esc` `shift+esc`把焦点从弹出窗口移动到编辑器
+`esc` `shift+esc`把焦点从弹出窗口移动到编辑器,`shift+esc`在移动焦点到编辑器之后，`f12`焦点从编辑器移回最后一个window
 
 `f12`把焦点从编辑器移动最后一个弹出窗口
 
@@ -75,4 +75,10 @@ categories: intellij
 `ctrl+f7`查看光标所在方法、变量、类名，所有调用到的地方
 
 `ctrl+q`查看文档
+
+`ctrl+o` 重写父类的方法
+
+`ctrl+i` 实现接口的方法
+
+`ctrl+alt+t`：当先中一段代码，再按下这个组合键，可以生成try/catch代码块
  
