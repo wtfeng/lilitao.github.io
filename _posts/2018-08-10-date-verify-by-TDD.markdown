@@ -90,7 +90,8 @@ categories: date verify TDD
 
 {% highlight java %}
 
-    @Slf4j
+    @Slf4j 
+
     public class DateValidatorTest {
         DateValidator dateValidator ;
     
