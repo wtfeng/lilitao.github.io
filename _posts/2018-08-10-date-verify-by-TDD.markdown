@@ -87,7 +87,7 @@ categories: date verify TDD
 
 
 <p>test case</p>
-
+{% highlight java %}
     @Slf4j
     public class DateValidatorTest {
         DateValidator dateValidator ;
@@ -243,7 +243,7 @@ categories: date verify TDD
         }
     }
 
-
+{% endhighlight %}
 
 
 
