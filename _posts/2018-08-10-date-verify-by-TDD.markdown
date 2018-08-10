@@ -1,6 +1,6 @@
 ---
 layout: post
-title: date-verify-by-TDD
+title: date verify by TDD
 date: 2018-08-10
 categories: date verify TDD
 ---
