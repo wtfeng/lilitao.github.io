@@ -1,59 +1,46 @@
----
-layout: post
-title: unit test introduction
-date: 2018-08-10
-categories: unit test
----
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
-<script src="toc.js"></script>
+#unit test introduction
 
-<div id = "toc"></div>
-<script type="text/javascript">
-$(document).ready(function(){
-	$("#toc").toc();
-});
-</script>
-
-#what is UT actually looked like
+##what is UT actually looked like
 
 ```html
 test
 ```
 
-#compare UT with other tests
+##compare UT with other tests
 
 
-##what does it mean by "unit" of a unit test
-
-test
-
-##compare unit test with service test and UI test
+###what does it mean by "unit" of a unit test
 
 test
 
-#why to write UT
+###compare unit test with service test and UI test
 
 test
 
-##brain overload
+##why to write UT
 
 test
 
-##shotgun change
+###brain overload
 
 test
 
-##broken safenet
-
-test
-##hard to hit the root cause of the problem
+###shotgun change
 
 test
 
-##high risk to make change
+###broken safenet
 
 test
 
-#the ROI of automation change
+###hard to hit the root cause of the problem
+
+test
+
+###high risk to make change
+
+test
+
+##the ROI of automation change
 
 testddd
