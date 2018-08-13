@@ -4,29 +4,36 @@ title: unit test introduction
 date: 2018-08-10
 categories: unit test
 ---
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+<script src="toc.js"></script>
 
-* any list
+<div id = "toc"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#toc").toc();
+});
+</script>
 
-{:toc}
-
-<h1>what is UT actually looked like</h1>
+#what is UT actually looked like
+```html
 test
-<h1>compare UT with other tests</h1>
-<h2>what does it mean by "unit" of a unit test</h2>
+```
+#compare UT with other tests
+##what does it mean by "unit" of a unit test
 test
-<h2>compare unit test with service test and UI test</h2>
+##compare unit test with service test and UI test
 test
-<h1>why to write UT</h1>
+#why to write UT
 test
-<h2>brain overload</h2>
+##brain overload
 test
-<h2>shotgun change</h2>
+##shotgun change
 test
-<h2>broken safenet</h2>
+##broken safenet
 test
-<h2>hard to hit the root cause of the problem</h2>
+##hard to hit the root cause of the problem<
 test
-<h2>high risk to make change</h2>
+##high risk to make change
 test
-<h1>the ROI of automation change</h1>
+#the ROI of automation change
 testddd
