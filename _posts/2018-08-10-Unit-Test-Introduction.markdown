@@ -33,7 +33,7 @@ third , unit testes should run faster more than other kinds of tests , like : Se
 ### compare unit test with service test and UI test
 
 
-![unit-test-compare-with-other-tests]({{site.url}}/asserts/image-unit-test.png "unit test compare with other tests")
+![unit-test-compare-with-other-tests]({{ site.url }}/assets/image-unit-test.png "unit test compare with other tests")
 
 
 ## why to write UT
