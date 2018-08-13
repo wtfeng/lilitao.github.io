@@ -4,32 +4,37 @@ title: unit test introduction
 date: 2018-08-10
 categories: unit test
 ---
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
-<script src="toc.js"></script>
 
-<div id = "toc"></div>
-<script type="text/javascript">
-$(document).ready(function(){
-	$("#toc").toc();
-});
-</script>
 
 ## what is UT actually looked like
 
-```html
-test
+```java
+@Test
+public void should_pring_success_given_list(){
+	//given
+	Purchase purchase = new Puchase(Arrays.asList(new Milk(),new Book()));
+    Print print = new Print(puchase);
+    //when
+    String result = print.printPurchase();
+   //then
+   assertThat(result).contains("milk","book");
+} 
 ```
 
 ## compare UT with other tests
 
-
 ### what does it mean by "unit" of a unit test
 
-test
+First , unit tests are low-level , focusing on a small functional point
+second , unit tests should completed by developer who are responsible for implement functionality
+third , unit testes should run faster more than other kinds of tests , like : Service Tests , UI tests
+
 
 ### compare unit test with service test and UI test
 
-test
+
+![unit-test-compare-with-other-tests](image-unit-test.png "unit test compare with other tests")
+
 
 ## why to write UT
 
